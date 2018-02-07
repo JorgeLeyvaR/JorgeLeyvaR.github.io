@@ -3,11 +3,44 @@
 
 /* Large Devices, Wide Screens */
 @media (min-width : 1200px) {
-	.dropdown i{
-		display: none;
+
+	/* Dropdown animation */
+	.navbar-nav .dropdown-menu,
+	.navbar-nav .dropdown.megamenu div.dropdown-menu{
+		background: none;
+		border: 0;
+		box-shadow: none;
+		display: block;
+		opacity: 0;
+		z-index:1;
+		visibility:hidden;
+		-webkit-transform: scale(.8);
+		-moz-transform: scale(.8);
+		-ms-transform: scale(.8);
+		-o-transform: scale(.8);
+		transform: scale(.8);
+		-webkit-transition: visibility 500ms, opacity 500ms, -webkit-transform 500ms cubic-bezier(.43, .26, .11, .99);
+		-moz-transition: visibility 500ms, opacity 500ms, -moz-transform 500ms cubic-bezier(.43, .26, .11, .99);
+		-o-transition: visibility 500ms, opacity 500ms, -o-transform 500ms cubic-bezier(.43, .26, .11, .99);
+		-ms-transition: visibility 500ms, opacity 500ms, -ms-transform 500ms cubic-bezier(.43, .26, .11, .99);
+		transition: visibility 500ms, opacity 500ms, transform 500ms cubic-bezier(.43, .26, .11, .99);
 	}
 
-
+	.navbar-nav .dropdown:hover div.dropdown-menu,
+	.navbar-nav .dropdown.megamenu:hover div.dropdown-menu{
+		opacity: 1;
+		visibility:visible;
+		color: #777;
+		-webkit-transform: scale(1);
+		-moz-transform: scale(1);
+		-ms-transform: scale(1);
+		-o-transform: scale(1);
+		transform: scale(1);
+	 }
+	 .navbar-nav .dropdown-backdrop {
+		visibility: hidden;
+	}
+	
 }
 
 
@@ -23,15 +56,47 @@
 		display: none;
 	}
 
-	/* Navigation */
-	.navbar-nav>li>a{
-		padding: 21px 24px;
-	}
-
 }
 
 /* Small Devices, Tablets */
 @media (min-width : 768px) and (max-width: 991px) {
+
+	/* Dropdown animation */
+	.navbar-nav .dropdown-menu,
+	.navbar-nav .dropdown.megamenu div.dropdown-menu{
+		background: none;
+		border: 0;
+		box-shadow: none;
+		display: block;
+		opacity: 0;
+		z-index:1;
+		visibility:hidden;
+		-webkit-transform: scale(.8);
+		-moz-transform: scale(.8);
+		-ms-transform: scale(.8);
+		-o-transform: scale(.8);
+		transform: scale(.8);
+		-webkit-transition: visibility 500ms, opacity 500ms, -webkit-transform 500ms cubic-bezier(.43, .26, .11, .99);
+		-moz-transition: visibility 500ms, opacity 500ms, -moz-transform 500ms cubic-bezier(.43, .26, .11, .99);
+		-o-transition: visibility 500ms, opacity 500ms, -o-transform 500ms cubic-bezier(.43, .26, .11, .99);
+		-ms-transition: visibility 500ms, opacity 500ms, -ms-transform 500ms cubic-bezier(.43, .26, .11, .99);
+		transition: visibility 500ms, opacity 500ms, transform 500ms cubic-bezier(.43, .26, .11, .99);
+	}
+
+	.navbar-nav .dropdown:hover div.dropdown-menu,
+	.navbar-nav .dropdown.megamenu:hover div.dropdown-menu{
+		opacity: 1;
+		visibility:visible;
+		color: #777;
+		-webkit-transform: scale(1);
+		-moz-transform: scale(1);
+		-ms-transform: scale(1);
+		-o-transform: scale(1);
+		transform: scale(1);
+	 }
+	 .navbar-nav .dropdown-backdrop {
+		visibility: hidden;
+	}
 
 
 	/* Common */
@@ -44,9 +109,24 @@
 		width: auto;
 	}
 
+	.navbar-brand.navbar-bg{
+		width: 25%;
+	}
+
+	.header2 .navbar-brand, .header3 .navbar-brand,
+	.header4 .navbar-brand{
+		padding-right: 0;
+		padding-left: 0;
+	}
+
 	/* Navigation */
 	ul.navbar-nav > li > a {
-		padding: 21px 10px;
+		padding: 21px 8px;
+		font-size: 12px;
+	}
+
+	ul.navbar-nav > li:last-child a{
+		padding-right: 8px;
 	}
 
 	/* Slideshow */
@@ -69,7 +149,26 @@
 		bottom: 20px;
 	}
 
+	/* Cd Hero Slider */
+
+	.cd-hero-slider .cd-btn{
+		margin-top: 15px !important;
+		font-size: 12px !important;
+	}
+	.cd-slider-nav ul li.video{
+		display: none;
+	}
+
+	.cd-slider-nav{
+		bottom: 40px !important;
+	}
+
 	/* Portfolio */
+
+	.isotope-nav{
+		margin: 0 auto 40px;
+	}
+
 	figure.effect-oscar figcaption{
 		padding: 1.5em;
 	}
@@ -82,6 +181,15 @@
 	figure.effect-oscar h3{
 		margin-top: 0;
 		font-size: 16px;
+	}
+
+
+	/* Feature */
+
+	.feature-content h3,
+	.feature-center-content h3{
+		font-size: 14px;
+		line-height: normal;
 	}
 
 	/* Featured tab */
@@ -125,6 +233,18 @@
 
 	#back-to-top.affix {
 		bottom: 35px;
+	}
+
+	/* Video block */
+
+	.video-block-head{
+		margin-top: 30px;
+	}
+
+	/* Call to action */
+
+	.call-to-action .btn.btn-primary{
+		font-size: 12px;
 	}
 
 	/*-- Landing ---*/
@@ -192,8 +312,14 @@
 	}
 
 	/* Logo */
-	.navbar-brand{
-		width: auto;
+	.navbar-brand.navbar-bg{
+		height: 50px;
+  		line-height: 50px;
+  		width: auto;
+	}
+	.navbar-brand.navbar-bg img{
+		background-size: contain;
+		width: 160px;
 	}
 
 	/* Navigation */
@@ -211,7 +337,7 @@
 
 	.navbar-collapse ul.navbar-nav > li.active > a,
 	.navbar-collapse ul.navbar-nav > li:hover > a{
-		color: #49a2e7;
+		color: #ee3b24;
 	}
 
 	/* Slideshow */
@@ -221,11 +347,11 @@
 	}
 
 	#main-slide .slider-content h2{
-		font-size: 20px;
+		font-size: 18px;
 		line-height: normal;
 	}
 	#main-slide .slider-content h3{
-		font-size: 14px;
+		font-size: 12px;
 		line-height: normal;
 		margin: 0;
 	}
@@ -245,14 +371,30 @@
 
 	/* About */
 
+	.about{
+		padding-top: 40px;
+	}
+
 	.about.angle:before{
 		position: relative;
 	}
 
+
+	/* Service */
+
+	.service-content{
+		display: inline-block;
+		margin-bottom: 30px;
+	}
+
 	/* Portfolio */
 
+	.isotope-nav{
+		margin: 0 auto 40px;
+	}
+
 	.isotope-nav ul li a{
-		padding: 5px;
+		padding: 5px 10px;
 		margin-bottom: 10px;
 		display: inline-block;
 	}
@@ -264,6 +406,25 @@
 	#isotope .isotope-item .grid{
 		padding-left: 10px;
 		padding-right: 10px;
+	}
+
+
+	/* Image block */
+
+	.img-block-right {
+  		padding-right: 50px;
+	}
+
+	.img-block-head h2{
+		font-size: 16px;
+	}
+
+	.img-block-head h3{
+		font-size: 28px;
+	}
+
+	.image-block-content{
+		padding: 0;
 	}
 
 	/* Featured tab */
@@ -320,10 +481,23 @@
 		padding-bottom: 40px;
 	}
 
-	/* Back to top */
+	/* Copyright */
+	.copyright-info{
+		font-size: 13px;
+	}
 
+	#back-to-top{
+		right: 20px;
+	}
 	#back-to-top.affix {
 		bottom: 20px;
+	}
+
+	/* Call action */
+
+	.call-to-action .btn.btn-primary{
+		float: none !important;
+		margin-top: 20px;
 	}
 
 	/*-- Landing ---*/
@@ -371,15 +545,6 @@
 /* Extra Small Devices, Phones */ 
 @media (max-width : 479px) {
 
-	/* Logo */
-	.navbar-brand{
-		width: 145px !important;
-		background-size: contain !important;
-		height: 50px;
-		line-height: 50px;
-		padding: 2px 5px 0;
-	}
-
 	/* Slideshow */
 
 	#main-slide .slides img{
@@ -393,11 +558,8 @@
 }
 
 /* Custom, iPhone Retina */ 
-@media (min-width : 320px) and (max-width: 478px)  {
+@media (max-width : 320px) and (max-width: 478px)  {
 
 
-
-
-	
 
 }

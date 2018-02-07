@@ -5,7 +5,7 @@
 	<!-- Basic Page Needs
 	================================================== -->
 	<meta charset="utf-8">
-    <title>BizCraft - Responsive Html5 Template</title>
+    <title>BREFFTEL IT SOLUTIONS</title>
     <meta name="description" content="">	
 	<meta name="author" content="">
 
@@ -40,6 +40,8 @@
 	<link rel="stylesheet" href="css/owl.theme.css">
 	<!-- Flexslider -->
 	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Flexslider -->
+	<link rel="stylesheet" href="css/cd-hero.css">
 	<!-- Style Swicther -->
 	<link id="style-switch" href="css/presets/preset3.css" media="screen" rel="stylesheet" type="text/css">
 
@@ -71,6 +73,12 @@
 	<!-- Style switcher end -->
 
 	<div class="body-inner">
+
+	<!-- Header start -->
+	</head>
+	
+<body>
+	<div class="body-inner">
 	<!-- Header start -->
 	<header id="header" class="navbar-fixed-top header" role="banner">
 		<div class="container">
@@ -83,7 +91,7 @@
 				        <span class="icon-bar"></span>
 				        <span class="icon-bar"></span>
 				    </button>
-				    <div class="navbar-brand">
+				    <div class="navbar-brand navbar-bg">
 					    <a href="index.html">
 					    	<img class="img-responsive" src="images/logo.png" alt="logo">
 					    </a> 
@@ -91,14 +99,34 @@
 				</div><!--/ Logo end -->
 				<nav class="collapse navbar-collapse clearfix" role="navigation">
 					<ul class="nav navbar-nav navbar-right">
-						<li class="active"><a class="page-scroll" href="#home" tabindex="-1">Home</a></li>
-						<li><a class="page-scroll" href="#about" tabindex="-1">About</a></li>
-						<li><a class="page-scroll" href="#portfolio" tabindex="-1">Portfolio</a></li>
-						<li><a class="page-scroll" href="#service" tabindex="-1">Services</a></li>
-						<li><a class="page-scroll" href="#team" tabindex="-1">Team</a></li>
-						<li><a class="page-scroll" href="#pricing" tabindex="-1">Pricing</a></li>
-						<li><a class="page-scroll" href="#blog" tabindex="-1">Blog</a></li>
-						<li><a class="page-scroll" href="#contact" tabindex="-1">Contact</a></li>
+						<li class="dropdown">
+                       		<li class="active"><a href="index.html">Home</a></li>
+                       		<div class="dropdown-menu">
+								
+	                    	</div>
+	                    </li>
+						<li class="dropdown">
+                       		<a href="service.html">Services</a>
+                       		<div class="dropdown-menu">
+								
+	                    	</div>
+	                    </li>
+						<li class="dropdown">
+                       		<li> <a href="career.html">Career</a></li>
+                       		<div class="dropdown-menu">
+							
+	                    	</div>
+	                    </li>
+	                    <li class="dropdown">
+                       		<li> <a href="about.html">About</a></li>
+                       		<div class="dropdown-menu">
+								
+	                    	</div>
+	                    </li>
+	                    <li class="dropdown">
+                       		<li><a href="contact.html">Contact</a></li>
+	                    
+	                   
                     </ul>
 				</nav><!--/ Navigation end -->
 			</div><!--/ Row end -->
@@ -107,297 +135,83 @@
 
 	<!-- Slider start -->
 	<section id="home" class="no-padding">	
+    	<div id="main-slide" class="cd-hero">
+			<ul class="cd-hero-slider">
+				<li class="selected">
+					<div class="overlay2">
+						<img class="" src="images/slider/bg1.jpg" alt="slider">
+					</div>
+					<div class="cd-full-width">
+						<h2>Need To Invent The Future!</h2>
+						<h3>We Making Difference To Great Things Possible</h3>
+						<a href="contact.html" class="btn btn-primary white cd-btn">Start Now</a>
+						<a href="service.html" class="btn btn-primary solid cd-btn">Learn More</a>
+					</div> <!-- .cd-full-width -->
+				</li>
+				<li>
+					<div class="overlay2">
+						<img class="" src="images/slider/bg2.jpg" alt="slider">
+					</div>
+					<div class="cd-half-width">
+						<h2>How Big Can You Dream?</h2>
+						<!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequatur cumque natus!</p>-->
+						<!--<a href="#0" class="cd-btn btn btn-primary solid">Take a Tour</a>-->
+					</div> <!-- .cd-half-width -->
 
-    	<div id="main-slide" class="ts-flex-slider">
+					<div class="cd-half-width cd-img-container">
+						<img src="images/slider/bg-thumb1.png" alt="">
+					</div> <!-- .cd-half-width.cd-img-container -->
+				</li>
+				<li>
+					<div class="overlay2">
+						<img class="" src="images/slider/bg3.jpg" alt="slider">
+					</div>
+					<div class="cd-half-width cd-img-container img-right">
+						<img src="images/slider/bg-thumb2.png" alt="">
+					</div> <!-- .cd-half-width.cd-img-container -->
+					<div class="cd-half-width">
+						<h2>Your Challenge is Our Progress</h2>
+						<!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequatur cumque natus!</p>
+						<a href="#0" class="cd-btn btn btn-primary white">Start</a>
+						<a href="#0" class="cd-btn btn secondary btn-primary solid">Learn More</a>-->
+					</div> <!-- .cd-half-width -->
+				</li>
+				<li class="cd-bg-video">
+					<div class="cd-full-width">
+						<h2>WE ARE HERE TO MAKE IT HAPPEN</h2>
+						<h3>We Making Difference To Great Things Possible</h3>
 
-			<div class="flexSlideshow flexslider">
-				<ul class="slides">
-					<li>
-						<div class="overlay2">
-							<img class="" src="images/slider2/bg1.jpg" alt="slider">
-						</div>
-						<div class="flex-caption slider-content">
-	                        <div class="col-md-12 text-center">
-	                    		<h2 class="animated2">
-	                        		Need To Invent The Future!
-	                        	</h2>
-	                            <h3 class="animated3">
-	                            	We Making Difference To Great Things Possible
-	                            </h3>
-	                            <p class="animated4"><a href="#" class="slider btn btn-primary white">Check Now</a></p>
-	                        </div>
-	                    </div>
-					</li>
-					<li>
-						<div class="overlay2">
-							<img class="" src="images/slider2/bg2.jpg" alt="slider">
-						</div>
-						<div class="flex-caption slider-content">
-	                        <div class="col-md-12 text-center">
-	                            <h2 class="animated4">
-	                                How Big Can You Dream?
-	                            </h2>
-	                            <h3 class="animated5">
-	                            	We are here to make it happen
-	                            </h3>		
-	                            <p class="animated6"><a href="#" class="slider btn btn-primary white">Buy Now</a></p>	     
-	                        </div>
-	                    </div>
-					</li>
-					<li>
-						<div class="overlay2">
-							<img class="" src="images/slider2/bg3.jpg" alt="slider">
-						</div>
-						<div class="flex-caption slider-content">
-	                        <div class="col-md-12 text-center">
-	                            <h2 class="animated7">
-	                                Your Challenge is Our Progress
-	                            </h2>
-	                            <h3 class="animated8">
-	                            	So, You Don't Need to Go Anywhere Today
-	                            </h3>		
-	                            <div class="">
-	                                <a class="animated4 slider btn btn-primary btn-min-block white" href="#">Get Now</a><a class="animated4 slider btn btn-primary btn-min-block solid" href="#">Live Demo</a>
-	                            </div>     
-	                        </div>
-	                    </div>
-					</li>
+						<a href="#0" class="cd-btn btn btn-primary solid">Learn more</a>
+					</div> <!-- .cd-full-width -->
+
+					<div class="cd-bg-video-wrapper" data-video="videos/video">
+						<!-- video element will be loaded using jQuery -->
+					</div> <!-- .cd-bg-video-wrapper -->
+				</li>
+			</ul> <!--/ cd-hero-slider -->
+
+		<div class="cd-slider-nav">
+			<nav>
+				<span class="cd-marker item-1"></span>
+				<ul>
+					<li class="selected"><a href="#0"><i class="fa fa-lightbulb-o"></i> Invent</a></li>
+					<li><a href="#0"><i class="fa fa-cloud"></i> Dream</a></li>
+					<li><a href="#0"><i class="fa fa-android"></i> Tech</a></li>
 				</ul>
-			</div>
+			</nav> 
+		</div> <!-- .cd-slider-nav -->
+
 		</div><!--/ Main slider end -->    	
     </section> <!--/ Slider end -->
-   
 
-	<!-- About tab start -->
-	<section id="about" class="about angle">
-		<div class="container">
-			<div class="row wow fadeInUp">
-				<div class="col-md-12 heading text-center">
-					<span class="icon-pentagon wow bounceIn"><i class="fa fa-meh-o"></i></span>
-					<h2 class="title2">About Us<span class="title-desc">A Quality Experience Team with 4 years experience</span></h2>
-				</div>
-			</div><!-- Title row end-->
 
-			<div class="row">
-				<div class="landing-tab clearfix">
-					<ul class="nav nav-tabs nav-stacked col-md-3 col-sm-5">
-					  	<li class="active">
-					  		<a class="animated fadeIn" href="#tab_a" data-toggle="tab">
-					  			<span class="tab-icon"><i class="fa fa-info"></i></span>
-					  			<div class="tab-info">
-						  			<h3>Who Are We</h3>
-					  			</div>
-					  		</a>
-					  	</li>
-					  	<li>
-						  	<a class="animated fadeIn" href="#tab_b" data-toggle="tab">
-						  		<span class="tab-icon"><i class="fa fa-briefcase"></i></span>
-					  			<div class="tab-info">
-						  			<h3>Our Company</h3>
-					  			</div>
-						  	</a>
-						</li>
-					 	<li>
-						  	<a class="animated fadeIn" href="#tab_c" data-toggle="tab">
-						  		<span class="tab-icon"><i class="fa fa-android"></i></span>
-					  			<div class="tab-info">
-						  			<h3>What We Do</h3>
-					  			</div>
-						  	</a>
-						</li>
-						<li>
-						  	<a class="animated fadeIn" href="#tab_d" data-toggle="tab">
-						  		<span class="tab-icon"><i class="fa fa-pagelines"></i></span>
-					  			<div class="tab-info">
-						  			<h3>Modern Design</h3>
-					  			</div>
-						  	</a>
-						</li>
-						<li>
-						  	<a class="animated fadeIn" href="#tab_e" data-toggle="tab">
-						  		<span class="tab-icon"><i class="fa fa-support"></i></span>
-					  			<div class="tab-info">
-						  			<h3>Dedicated Support</h3>
-					  			</div>
-						  	</a>
-						</li>
-					</ul>
-					<div class="tab-content col-md-9 col-sm-7">
-				        <div class="tab-pane active animated fadeInRight" id="tab_a">
-				        	<i class="fa fa-trophy big"></i>
-				            <h3>We Are Awwared Winning Company</h3> 
-				            <p>Over the year we have lots of experience in our field. In sit amet massa sapien. Vestibulum diam turpis, gravida in lobortis id, ornare a eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sagittis nulla non elit dignissim suscipit. Duis lorem nulla, eleifend.</p>
-				        </div>
-				        <div class="tab-pane animated fadeInLeft" id="tab_b">
-				        	<i class="fa fa-briefcase big"></i>
-				            <h3>We Have Worldwide Business</h3> 
-							<p>Helvetica cold-pressed lomo messenger bag ugh. Vinyl jean shorts Austin pork belly PBR retro, Etsy VHS kitsch actually messenger bag pug. Pbrb semiotics try-hard, Schlitz occupy dreamcatcher master cleanse Marfa Vice tofu. </p>							 
-				        </div>
-				        <div class="tab-pane animated fadeIn" id="tab_c">
-				            <i class="fa fa-android big"></i>
-				            <h3>We Build Readymade Applications</h3> 
-				            <p>Over the year we have lots of experience in our field. In sit amet massa sapien. Vestibulum diam turpis, gravida in lobortis id, ornare a eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sagittis nulla non elit dignissim suscipit. Duis lorem nulla, eleifend.</p>
-				        </div>
-				        <div class="tab-pane animated fadeIn" id="tab_d">
-				            <i class="fa fa-pagelines big"></i>
-				            <h3>Clean and Modern Design</h3> 
-				            <p>Over the year we have lots of experience in our field. In sit amet massa sapien. Vestibulum diam turpis, gravida in lobortis id, ornare a eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sagittis nulla non elit dignissim suscipit. Duis lorem nulla, eleifend.</p>
-				        </div>
-				        <div class="tab-pane animated fadeIn" id="tab_e">
-				            <i class="fa fa-support big"></i>
-				            <h3>24/7 Dedicated Support</h3> 
-				            <p>Occupy selfies Tonx, +1 Truffaut beard organic normcore tilde flannel artisan squid cray single-origin coffee. Master cleanse vinyl Austin kogi, semiotics skateboard fap wayfarers health goth. Helvetica cray church-key hashtag Carles. Four dollar toast meggings seitan, Tonx pork belly VHS Bushwick. Chambray banh mi cornhole. Locavore messenger bag seitan.</p>
-				        </div>
-					</div><!-- tab content -->
-	    		</div><!-- Overview tab end -->
-			</div><!--/ Content row end -->
-		</div><!-- Container end -->
-    </section><!-- About end -->
-
-	<!-- Portfolio start -->
-	<section id="portfolio" class="portfolio">
+    <!-- Service box start -->
+	<section id="service" class="service angle">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 heading text-center">
-					<span class="icon-pentagon wow bounceIn"><i class="fa fa-suitcase"></i></span>
-					<h2 class="title2">Our Work 
-						<span class="title-desc">A Quality Experience Team with 4 years experience</span>
-					</h2>
-				</div>
-			</div> <!-- Title row end -->
-
-			<!--Isotope filter start -->
-			<div class="row text-center">
-				<div class="isotope-nav" data-isotope-nav="isotope">
-					<ul>
-						<li><a href="#" class="active" data-filter="*">All</a></li>
-						<li><a href="#" data-filter=".web-design">Web Design</a></li>
-						<li><a href="#" data-filter=".development">Development</a></li>
-						<li><a href="#" data-filter=".joomla">Joomla</a></li>
-						<li><a href="#" data-filter=".wordpress">Wordpress</a></li>
-					</ul>
-				</div>
-			</div><!-- Isotope filter end -->
-			
-			<div class="row">
-				<div id="isotope" class="isotope">
-					<div class="col-sm-3 web-design isotope-item">
-						<div class="grid">
-							<figure class="effect-oscar">
-								<img src="images/portfolio/portfolio1.jpg" alt="">
-								<figcaption>
-									<h3>Startup Business</h3>
-									<a class="link icon-pentagon" href="portfolio-item.html"><i class="fa fa-link"></i></a>
-									<a class="view icon-pentagon" data-rel="prettyPhoto" href="images/portfolio/portfolio-bg1.jpg"><i class="fa fa-search"></i></a>            
-								</figcaption>			
-							</figure>
-						</div>
-					</div><!-- Isotope item end -->
-
-					<div class="col-sm-3 development isotope-item">
-						<div class="grid">
-							<figure class="effect-oscar">
-								<img src="images/portfolio/portfolio2.jpg" alt="">
-								<figcaption>
-									<h3>Easy to Lanunch</h3>
-									<a class="link icon-pentagon" href="portfolio-item.html"><i class="fa fa-link"></i></a>
-									<a class="view icon-pentagon" data-rel="prettyPhoto" href="images/portfolio/portfolio-bg2.jpg"><i class="fa fa-search"></i></a>            
-								</figcaption>				
-							</figure>
-						</div>
-					</div><!-- Isotope item end -->
-
-					<div class="col-sm-3 joomla isotope-item">
-						<div class="grid">
-							<figure class="effect-oscar">
-								<img src="images/portfolio/portfolio3.jpg" alt="">
-								<figcaption>
-									<h3>Your Business</h3>
-									<a class="link icon-pentagon" href="portfolio-item.html"><i class="fa fa-link"></i></a>
-									<a class="view icon-pentagon" data-rel="prettyPhoto" href="images/portfolio/portfolio-bg3.jpg"><i class="fa fa-search"></i></a>            
-								</figcaption>				
-							</figure>
-						</div>
-					</div><!-- Isotope item end -->
-
-					<div class="col-sm-3 wordpress isotope-item">
-						<div class="grid">
-							<figure class="effect-oscar">
-								<img src="images/portfolio/portfolio4.jpg" alt="">
-								<figcaption>
-									<h3>Prego Match</h3>
-									<a class="link icon-pentagon" href="portfolio-item.html"><i class="fa fa-link"></i></a>
-									<a class="view icon-pentagon" data-rel="prettyPhoto" href="images/portfolio/portfolio-bg4.jpg"><i class="fa fa-search"></i></a>            
-								</figcaption>					
-							</figure>
-						</div>
-					</div><!-- Isotope item end -->
-
-					<div class="col-sm-3 joomla isotope-item">
-						<div class="grid">
-							<figure class="effect-oscar">
-								<img src="images/portfolio/portfolio5.jpg" alt="">
-								<figcaption>
-									<h3>Fashion Brand</h3>
-									<a class="link icon-pentagon" href="portfolio-item.html"><i class="fa fa-link"></i></a>
-									<a class="view icon-pentagon" data-rel="prettyPhoto" href="images/portfolio/portfolio-bg5.jpg"><i class="fa fa-search"></i></a>            
-								</figcaption>					
-							</figure>
-						</div>
-					</div><!-- Isotope item end -->
-
-					<div class="col-sm-3 development isotope-item">
-						<div class="grid">
-							<figure class="effect-oscar">
-								<img src="images/portfolio/portfolio6.jpg" alt="">
-								<figcaption>
-									<h3>The Insidage</h3>
-									<a class="link icon-pentagon" href="portfolio-item.html"><i class="fa fa-link"></i></a>
-									<a class="view icon-pentagon" data-rel="prettyPhoto" href="images/portfolio/portfolio-bg1.jpg"><i class="fa fa-search"></i></a>            
-								</figcaption>					
-							</figure>
-						</div>
-					</div><!-- Isotope item end -->
-
-					<div class="col-sm-3 development isotope-item">
-						<div class="grid">
-							<figure class="effect-oscar">
-								<img src="images/portfolio/portfolio7.jpg" alt="">
-								<figcaption>
-									<h3>Light Carpet</h3>
-									<a class="link icon-pentagon" href="portfolio-item.html"><i class="fa fa-link"></i></a>
-									<a class="view icon-pentagon" data-rel="prettyPhoto" href="images/portfolio/portfolio-bg2.jpg"><i class="fa fa-search"></i></a>            
-								</figcaption>					
-							</figure>
-						</div>
-					</div><!-- Isotope item end -->
-
-					<div class="col-sm-3 development isotope-item">
-						<div class="grid">
-							<figure class="effect-oscar">
-								<img src="images/portfolio/portfolio8.jpg" alt="">
-								<figcaption>
-									<h3>Amazing Keyboard</h3>
-									<a class="link icon-pentagon" href="portfolio-item.html"><i class="fa fa-link"></i></a>
-									<a class="view icon-pentagon" data-rel="prettyPhoto" href="images/portfolio/portfolio-bg3.jpg"><i class="fa fa-search"></i></a>            
-								</figcaption>					
-							</figure>
-						</div>
-					</div><!-- Isotope item end -->
-				</div><!-- Isotope content end -->
-			</div><!-- Content row end -->
-		</div><!-- Container end -->
-	</section><!-- Portfolio end -->
-
-	<!-- Service box start -->
-	<section id="service" class="service">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 heading text-center">
-					<span class="icon-pentagon wow bounceIn"><i class="fa fa-cogs"></i></span>
-					<h2 class="title2">Our Services
-						<span class="title-desc">A Quality Experience Team with 4 years experience</span>
-					</h2>
+				<div class="col-md-12 heading">
+					<span class="title-icon pull-left"><i class="fa fa-cogs"></i></span>
+					<h2 class="title">Service We Provide <span class="title-desc">A Quality Experience Team with 8 years experience</span></h2>
 				</div>
 			</div><!-- Title row end -->
 
@@ -407,15 +221,15 @@
 						<div class="service-content text-center">
 							<span class="service-icon icon-pentagon"><i class="fa fa-tachometer"></i></span>
 							<h3>Web Design</h3>
-							<p>High Life narwhal, banh mi PBR single-origin coffee Odd Future actually aliqua polaroid befor</p>
+							<p>At N&J Company we increase your business by providing web design that is not only stunning, but also functional.</p>
 						</div>
 					</div><!--/ End first service -->
 
 					<div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay=".8s" >
 						<div class="service-content text-center">
-							<span class="service-icon icon-pentagon"><i class="fa fa-android"></i></span>
+							<span class="service-icon icon-pentagon"><i class="fa fa-apple"></i></span>
 							<h3>Apps Development</h3>
-							<p>Food truck master cleanse mixtape minim Portland, cardigan stumptown chambray swag</p>
+							<p>We create highly polished iPhone & Android apps for startups and enterprise clients.</p>
 						</div>
 						
 					</div><!--/ End Second service -->
@@ -424,76 +238,83 @@
 						<div class="service-content text-center">
 							<span class="service-icon icon-pentagon"><i class="fa fa-shopping-cart"></i></span>
 							<h3>eCommerce Websites</h3>
-							<p>Neutra Thundercats craft beer, listicle meggings bicycle rights 90's XOXO beard cardiga</p>
+							<p>We, at N&J, one of the pioneered web development companies,offer efficacious and effectual eCommerce web design.</p>
 						</div>
 					</div><!--/ End Third service -->
 
 					<div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="1.4s">
 						<div class="service-content text-center">
-							<span class="service-icon icon-pentagon"><i class="fa fa-lightbulb-o"></i></span>
-							<h3>Design for Startups</h3>
-							<p>We design beautiful modern engaging websites that always latest responsive technologies.</p>
+							<span class="service-icon icon-pentagon"><i class="fa fa-server"></i></span>
+							<h3>IT SERVICES</h3>
+							<p>Our engineers are well-versed in LAN, WAN, wireless and Internet technologies.</p>
 						</div>
 					</div><!--/ End 4th service -->
 				</div>
 			</div><!-- Content row end -->
 		</div><!--/ Container end -->
 	</section><!--/ Service box end -->
+   
+	<!-- Portfolio start -->
+	
 
-	<!-- Counter Strat -->
-	<section class="ts_counter parallax parallax1">
-		<div class="parallax-overlay"></div>
-		<div class="container">
-			<div class="row wow fadeInLeft">
-				<div class="col-md-3 col-sm-6">
-					<div class="facts text-center">
-						<i class="fa fa-user"></i>
-						<div class="facts-num">
-							<span class="counter">1200</span>
-						</div>
-						<h3>Clients</h3> 
-					</div>
+	<!-- Counter Start -->
+	
+    <!--/ Counter end -->
+
+	
+
+
+	<section id="image-block" class="image-block no-padding">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-6 ts-padding" style="height:650px;background:url(images/image-block-bg.jpg) 50% 50% / cover no-repeat;">
 				</div>
-				<div class="col-md-3 col-sm-6">
-					<div class="facts text-center">
-						<i class="fa fa-send"></i>
-						<div class="facts-num">
-							<span class="counter">1277</span>
-						</div>
-						<h3>Item Sold</h3> 
+				<div class="col-md-6 ts-padding img-block-right">
+					<div class="img-block-head text-center">
+						<h2>Know More About Our Company</h2>
+						<h3>Why Choose Us</h3>
+						<p>"We have 8 years' experience getting great results for big corporates and small bussines at one of the largest agencies-now it's time for me to offer my own, personal service"</p>
 					</div>
-				</div>
-				<div class="col-md-3 col-sm-6">
-					<div class="facts text-center">
-						<i class="fa fa-suitcase"></i>
-						<div class="facts-num">
-							<span class="counter">869</span>
+
+					<div class="gap-30"></div>
+
+					<div class="image-block-content">
+						<span class="feature-icon pull-left" ><i class="fa fa-cubes"></i></span>
+						<div class="feature-content">
+							<h3>Tons of Features</h3>
+							<p>On Site Technician Support,Remote Support,Network & Servers Monitoring,Daily Server Back Up Check,After Hours Emergency Support</p>
 						</div>
-						<h3>Projects</h3> 
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6">
-					<div class="facts text-center">
-						<i class="fa fa-trophy"></i>
-						<div class="facts-num">
-							<span class="counter">76</span>
+					</div><!--/ End 1st block -->
+
+					<div class="image-block-content">
+						<span class="feature-icon pull-left" ><i class="fa fa-road"></i></span>
+						<div class="feature-content">
+							<h3>Years of Experience</h3>
+							<p>Our designers and developers are very talented and are experts in their fields.  They each have years of experience creating web solutions that are visually appealing and use pixel-perfect, clean, well-documented,  W3C compliant, SEO optimized code.</p>
 						</div>
-						<h3>Awwards</h3> 
-					</div>
+					</div><!--/ End 1st block -->
+
+					<div class="image-block-content">
+						<span class="feature-icon pull-left" ><i class="fa fa-street-view"></i></span>
+						<div class="feature-content">
+							<h3>Day Night Support</h3>
+							<p>After hours support is available through our automated phone system after 6:30pm Monday-Friday, and on weekends.</p>
+						</div>
+					</div><!--/ End 1st block -->
+
 				</div>
 			</div>
-		</div><!--/ Container end -->
-    </section><!--/ Counter end -->
+		</div>
+	</section><!--/ Image block end -->
+
 
 	<!-- Team start -->
 	<section id="team" class="team">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 heading text-center">
-					<span class="icon-pentagon wow bounceIn"><i class="fa fa-weixin"></i></span>
-					<h2 class="title2">Our Team 
-						<span class="title-desc">A Quality Experience Team with 4 years experience</span>
-					</h2>
+				<div class="col-md-12 heading">
+					<span class="title-icon pull-left"><i class="fa fa-weixin"></i></span>
+					<h2 class="title">Meet with our Team <span class="title-desc">A Quality Experience Team with 8 years experience</span></h2>
 				</div>
 			</div><!-- Title row end -->
 
@@ -506,8 +327,8 @@
 							<span class="img-bottom"></span>
 						</div>
 						<div class="team-content">
-							<h3>Vosgi Varduhi</h3>
-							<p>Web Designer</p>
+							<h3>Jorge Leyva</h3>
+							<p>Developer</p>
 							<div class="team-social">
 								<a class="fb" href="#"><i class="fa fa-facebook"></i></a>
 								<a class="twt" href="#"><i class="fa fa-twitter"></i></a>
@@ -521,13 +342,13 @@
 				<div class="col-md-3 col-sm-6">
 					<div class="team wow slideInLeft">
 						<div class="img-hexagon">
-							<img src="images/team/team2.jpg" alt="">
+							<img src="images/team/jesus.jpg" alt="">
 							<span class="img-top"></span>
 							<span class="img-bottom"></span>
 						</div>
 						<div class="team-content">
-							<h3>Robert Aleska</h3>
-							<p>Web Designer</p>
+							<h3>Jesus Nodar</h3>
+							<p>Network Expert</p>
 							<div class="team-social">
 								<a class="fb" href="#"><i class="fa fa-facebook"></i></a>
 								<a class="twt" href="#"><i class="fa fa-twitter"></i></a>
@@ -541,12 +362,12 @@
 				<div class="col-md-3 col-sm-6">
 					<div class="team wow slideInRight">
 						<div class="img-hexagon">
-							<img src="images/team/team3.jpg" alt="">
+							<img src="images/team/team2.jpg" alt="">
 							<span class="img-top"></span>
 							<span class="img-bottom"></span>
 						</div>
 						<div class="team-content">
-							<h3>Taline Voski</h3>
+							<h3>Miguel Arochena</h3>
 							<p>Web Designer</p>
 							<div class="team-social">
 								<a class="fb" href="#"><i class="fa fa-facebook"></i></a>
@@ -566,8 +387,8 @@
 							<span class="img-bottom"></span>
 						</div>
 						<div class="team-content">
-							<h3>Alban Spencer</h3>
-							<p>Web Designer</p>
+							<h3>Jose Gutierrez</h3>
+							<p>Computer Programmer</p>
 							<div class="team-social">
 								<a class="fb" href="#"><i class="fa fa-facebook"></i></a>
 								<a class="twt" href="#"><i class="fa fa-twitter"></i></a>
@@ -582,104 +403,96 @@
 		</div><!--/ Container end -->
     </section><!--/ Team end -->
 
-    <!-- Parallax 2 start -->
-	<section class="parallax parallax2">
+    <!-- Parallax 1 start -->
+	<section class="parallax parallax1">
 		<div class="parallax-overlay"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
-					<h2>Are You Ready to Buy This Template!</h2>
-					<h3>Just Click Button and Use Your Own</h3>
-					<p>
-						<a href="#" class="btn btn-primary white">Purchase Now</a>
-						<a href="#" class="btn btn-primary solid">Get In Touch</a>
+					<h2>Are You Ready to Start with US!</h2>
+					
+				    <p>
+						<!--<a href="#" class="btn btn-primary white">Purchase Now</a>-->
+						<a href="contact.html" class="btn btn-primary solid">Contact Us</a> 
 					</p>
 				</div>
 			</div>
 		</div><!-- Container end -->
-    </section><!-- Parallax 2 end -->
+    </section><!-- Parallax 1 end -->
 
-	<!-- Pricing table start -->
-	<section id="pricing" class="pricing">
+  <!-- Feature box start -->
+	<section id="feature" class="feature">
 		<div class="container">
-		  	<div class="row">
-				<div class="col-md-12 heading text-center">
-					<span class="icon-pentagon wow bounceIn"><i class="fa fa-university"></i></span>
-					<h2 class="title2">Flexible Package
-						<span class="title-desc">We Love to Work with Passion</span>
-					</h2>
-				</div>
-		  	</div><!--/ Title row end -->
-	  		<div class="row">
-				<!-- plan start -->
-				<div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
-				    <div class="plan text-center">
-				        <span class="plan-name">Basic <small>Monthly plan</small></span>
-				        <p class="plan-price"><sup class="currency">$</sup><strong>49</strong><sub>.99</sub></p>
-				        <ul class="list-unstyled">
-				            <li>100GB Monthly Bandwidth</li>
-				            <li>$100 Google AdWords</li>
-				            <li>100 Domain Hosting</li>
-				            <li>SSL Shopping Cart</li>
-				            <li>24/7 Live Support</li>
-				        </ul>
-				        <a class="btn btn-primary" href="#.">Sign Up</a>
-				    </div>
-				</div><!-- plan end -->
+			<div class="row">
+				<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
+					<span class="feature-icon pull-left" ><i class="fa fa-heart-o"></i></span>
+					<div class="feature-content">
+						<h3>Clean &amp; Modern Design</h3>
+						<p>This year, modern is represented mostly by responsive design, retina support, large photo backgrounds, CSS transparency, flat design or minimalist, infinite scrolling.</p>
+					</div>
+				</div><!--/ End first featurebox -->
+                   
+                   <div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
+					<span class="feature-icon pull-left" ><i class="fa fa-film"></i></span>
+					<div class="feature-content">
+						<h3>Parallax Section</h3>
+						<p>A parallax effect on a website is when content scrolls at different speeds, creating a sense of perspective and depth.   While it is a unique and visually appealing effec</p>
+					</div>
+				</div><!--/ End 3rd featurebox -->
 
-				<!-- plan start -->
-				<div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="1s">
-				    <div class="plan text-center">
-				        <span class="plan-name">Standared <small>Monthly plan</small></span>
-				        <p class="plan-price"><sup class="currency">$</sup><strong>99</strong><sub>.99</sub></p>
-				        <ul class="list-unstyled">
-				            <li>100GB Monthly Bandwidth</li>
-				            <li>$100 Google AdWords</li>
-				            <li>100 Domain Hosting</li>
-				            <li>SSL Shopping Cart</li>
-				            <li>24/7 Live Support</li>
-				        </ul>
-				        <a class="btn btn-primary" href="#.">Sign Up</a>
-				    </div>
-				</div><!-- plan end -->
+				<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
+					<span class="feature-icon pull-left" ><i class="fa fa-whatsapp"></i></span>
+					<div class="feature-content">
+						<h3>24/7 Live Support</h3>
+						<p>Our experienced support agents are managed by American professionals with high quality standards.</p>
+					</div>
+				</div><!--/ End first featurebox -->
 
-				<!-- plan start -->
-				<div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="1.4s">
-				    <div class="plan text-center featured">
-				        <span class="plan-name">Professional <small>Monthly plan</small></span>
-				        <p class="plan-price"><sup class="currency">$</sup><strong>149</strong><sub>.99</sub></p>
-				        <ul class="list-unstyled">
-				            <li>100GB Monthly Bandwidth</li>
-				            <li>$100 Google AdWords</li>
-				            <li>100 Domain Hosting</li>
-				            <li>SSL Shopping Cart</li>
-				            <li>24/7 Live Support</li>
-				        </ul>
-				        <a class="btn btn-primary" href="#.">Sign Up</a>
-				    </div>
-				</div><!-- plan end -->
+			</div><!-- Content row end -->
 
-				<!-- plan start -->
-				<div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="1.6s">
-				    <div class="plan text-center">
-				        <span class="plan-name">Premium <small>Monthly plan</small></span>
-				        <p class="plan-price"><sup class="currency">$</sup><strong>399</strong><sub>.99</sub></p>
-				        <ul class="list-unstyled">
-				            <li>100GB Monthly Bandwidth</li>
-				            <li>$100 Google AdWords</li>
-				            <li>100 Domain Hosting</li>
-				            <li>SSL Shopping Cart</li>
-				            <li>24/7 Live Support</li>
-				        </ul>
-				        <a class="btn btn-primary" href="#.">Sign Up</a>
-				    </div>
-				</div><!-- plan end -->
-			</div><!--/ Content row end -->
-		</div><!--/  Container end-->
-	</section><!--/ Pricing table end -->
+
+			<div class="gap-40"></div>
+
+			<div class="row">
+				<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
+					<span class="feature-icon pull-left" ><i class="fa fa-newspaper-o"></i></span>
+					<div class="feature-content">
+						<h3>Multipurpose Concept</h3>
+						<p>Concept is a unique project, a minimal but complex design, created to suit an open-minded business, a creative agency or an online shop.</p>
+					</div>
+				</div><!--/ End 1st featurebox -->
+
+				<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
+					<span class="feature-icon pull-left" ><i class="fa fa-desktop"></i></span>
+					<div class="feature-content">
+						<h3>Responsive Layout</h3>
+						<p>Our Themes and Templates are crafted sites that provide an optimal viewing and interaction experience.</p>
+					</div>
+				</div><!--/ End 2nd featurebox -->
+
+				<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
+					<span class="feature-icon pull-left" ><i class="fa fa-pagelines"></i></span>
+					<div class="feature-content">
+						<h3>Light wight Performance</h3>
+						<p>High Life narwhal, banh mi PBR single-origin coffee Odd Future actually aliqua</p>
+					</div>
+				</div><!--/ End 3rd featurebox -->
+
+			</div><!-- Content row end -->
+
+			
+				
+				
+
+				
+			</div><!-- Content row end -->
+
+		</div><!--/ Container end -->
+	</section><!--/ Feature box end -->
+
 
 	<!-- Testimonial start-->
-	<section class="testimonial parallax parallax3">
+	<section class="testimonial parallax parallax2">
 		<div class="parallax-overlay"></div>
 	  	<div class="container">
 		    <div class="row">
@@ -690,9 +503,9 @@
 			          	</div>
 			          	<div class="testimonial-content">
 				            <p class="testimonial-text">
-				              Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose. Lorem Ipsum is that it as opposed to using.
+				              Technology is just a tool. In terms of getting the kids working together and motivating them, the teacher is the most important.
 				            </p>
-			            	<h3 class="name">Sarah Arevik<span>Chief Executive</span></h3>
+			            	<h3 class="name">Bill Gates<span>Microsoft Founder</span></h3>
 			          	</div>
 			        </div>
 			        <div class="item">
@@ -701,9 +514,10 @@
 			          	</div>
 				        <div class="testimonial-content">
 				            <p class="testimonial-text">
-				              Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose. Lorem Ipsum is that it as opposed to using.
+				              It's really hard to design products by focus groups. A lot of times, people don't know what they want until you show it to them.
+
 				            </p>
-				            <h3 class="name">Narek Bedros<span>Sr. Manager</span></h3>
+				            <h3 class="name">Steve Jobs<span>Apple CEO</span></h3>
 				        </div>
 			        </div>
 			        <div class="item">
@@ -712,9 +526,9 @@
 				        </div>
 			          	<div class="testimonial-content">
 				            <p class="testimonial-text">
-				              Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose. Lorem Ipsum is that it as opposed to using.
+				              I think a simple rule of business is, if you do the things that are easier first, then you can actually make a lot of progress.
 				            </p>
-			            	<h3 class="name">Taline Lucine<span>Sales Manager</span></h3>
+			            	<h3 class="name">Mark Zuckerberg<span>Facebook CEO</span></h3>
 			          	</div>
 			        </div>
 			    </div><!--/ Testimonial carousel end-->
@@ -723,98 +537,9 @@
 	</section><!--/ Testimonial end-->
 
 
-	<!-- Recent post start -->
-	<section id="blog" class="blog">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 heading text-center">
-					<span class="icon-pentagon wow bounceIn"><i class="fa fa-pencil"></i></span>
-					<h2 class="title2">Our Blog 
-						<span class="title-desc">We Love to Work with Passion</span>
-					</h2>
-				</div>
-		  	</div><!--/ Title row end -->
-
-		  	<div class="row">
-				<div class="col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-delay=".5s">
-					<div class="media recent-post">
-						<div class="post-img-wrapper">
-	 						<div class="post-img-overlay">
-								<a class="link" href="blog-item.html"><i class="fa fa-link"></i></a>
-								<a class="view" data-rel="prettyPhoto" href="images/portfolio/portfolio-bg1.jpg"><i class="fa fa-search"></i></a>         
-								<img src="images/blog/blog-small1.jpg" alt="blog" />   
-							</div>
-	 					</div><!-- end image wrapper -->
-						<div class="media-body post-body">
-							<h3><a href="blog-item.html">Website encourages scrolling</a></h3>
-							<p class="post-meta">
-								<span class="post-meta-author">By <a href="#">Junia</a></span>
-								<span class="date">On Sep 21, 2014</span>
-								<span class="post-meta-comments pull-right"><i class="fa fa-comments"></i> <a href="#">27</a></span>
-							</p>
-							<div class="post-excerpt">
-							<p>Quisque sed metus at justo vestibulum congue at et arcu. Maecen pellentesque lobortis ante. Vestibulum quam cursus eget augue purus</p>
-							</div>
-						</div><!--/ end media body -->
-					</div><!--/ end media -->
-	 			</div><!--/ end col-sm-4 -->
-
-	 			<div class="col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-delay=".8s">
-	 				<div class="media recent-post">
-						<div class="post-img-wrapper">
-	 						<div class="post-img-overlay">
-								<a class="link" href="blog-item.html"><i class="fa fa-link"></i></a>
-								<a class="view" data-rel="prettyPhoto" href="images/portfolio/portfolio-bg2.jpg"><i class="fa fa-search"></i></a>     
-								<img src="images/blog/blog-small2.jpg" alt="blog" />       
-							</div>
-	 					</div><!-- end image wrapper -->
-						<div class="media-body post-body">
-							<h3><a href="blog-item.html">The tibrantly colorful birds of Costa</a></h3>
-							<p class="post-meta">
-								<span class="post-meta-author">By <a href="#">Luna</a></span>
-								<span class="date">On May 24, 2014</span>
-								<span class="post-meta-comments pull-right"><i class="fa fa-comments"></i> <a href="#">06</a></span>
-							</p>
-							<div class="post-excerpt">
-							<p>Quisque sed metus at justo vestibulum congue at et arcu. Maecen pellentesque lobortis ante. Vestibulum quam cursus eget augue purus</p>
-							</div>
-						</div>
-					</div><!--/ end media -->
-	 			</div><!--/ end col-sm-4 -->
-
-	 			<div class="col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-delay="1.1s">
-	 				<div class="media recent-post">
-	 					<div class="post-img-wrapper">
-	 						<div class="post-img-overlay">
-								<a class="link" href="blog-item.html"><i class="fa fa-link"></i></a>
-								<a class="view" data-rel="prettyPhoto" href="images/portfolio/portfolio-bg3.jpg"><i class="fa fa-search"></i></a>   
-								<img src="images/blog/blog-small3.jpg" alt="blog" />         
-							</div>
-	 					</div><!-- end image wrapper -->
-	 				
-						<div class="media-body post-body">
-							<h3><a href="blog-item.html">Travel on an exciting adventur Gap</a></h3>
-							<p class="post-meta">
-								<span class="post-meta-author">By <a href="#">John</a></span>
-								<span class="date">On Aug 19, 2014</span>
-								<span class="post-meta-comments pull-right"><i class="fa fa-comments"></i> <a href="#">11</a></span>
-							</p>
-							<div class="post-excerpt">
-								<p>Quisque sed metus at justo vestibulum congue at et arcu. Maecen pellentesque lobortis ante. Vestibulum quam cursus eget augue purus.</p>
-							</div>
-						</div>
-					</div><!-- end media -->
-	 			</div><!--/ end col-sm-4 -->
-		  	</div><!--/ Content row end -->
-		</div><!--/ Container end -->
-	</section><!--/ Recent post end -->
-
 	<!-- Clients start -->
 	<section id="clients" class="clients">
 		<div class="container">
-			<div class="row text-center">
-				<h2 class="title">Our Clients <span class="title-desc">We Love to Work with Passion</span></h2>
-			</div>
 			<div class="row wow fadeInLeft">
 		      <div id="client-carousel" class="col-sm-12 owl-carousel owl-theme text-center client-carousel">
 		        <figure class="item client_logo">
@@ -861,96 +586,83 @@
 	    	</div><!-- Main row end -->
 		</div><!--/ Container end -->
 	</section><!--/ Clients end -->
-
-	<!-- Twitter start -->
-	<section id="twitter" class="ts_twitter">
-		<div class="container">
-			<div class="row text-center">
-				<div class="col-md-8 col-md-push-2">
-                    <div class="twitter-feed text-center">
-                        <div class="twitter-icon">
-                            <i class="fa fa-twitter"></i>
-                        </div><!-- twitter-icon end -->
-                        <div class="tweet">
-          					<p>Just watched 'The Guest'. Absolutely bonkers, super-stylish action/thriller/drama/black comedy
-                        		<a href="#" target="_blank" title="Visit this link">http://t.instagram.com/p/wBVDpLsJ_c/</a></p>
-  
-                        </div>                        
-                    </div><!-- twitter-feed end -->
-                </div>
-			</div>
-		</div><!--/ Container end -->
-	</section><!-- Twitter end -->
-	
-	<!-- Contact start -->
-	<section id="contact" class="contact2 parallax parallax4">
-		<div class="parallax-overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 heading text-center">
-					<span class="icon-pentagon wow bounceIn"><i class="fa fa-fax"></i></span>
-					<h2 class="title2">Contact Us 
-						<span class="title-desc">We Love to Work with Passion</span>
-					</h2>
-				</div>
-		  	</div><!--/ Title row end -->
-	    	<div class="row">
-	    		<div class="col-md-7">
-	    			<form id="contact-form" action="contact-form.php" method="post" role="form">
-						<div class="row">
-							<div class="col-md-4">
-								<div class="form-group">
-									<label>Name</label>
-								<input class="form-control" name="name" id="name" placeholder="" type="text" required>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="form-group">
-									<label>Email</label>
-									<input class="form-control" name="email" id="email" 
-									placeholder="" type="email" required>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="form-group">
-									<label>Subject</label>
-									<input class="form-control" name="subject" id="subject" 
-									placeholder="" required>
-								</div>
-							</div>
-						</div>
-						<div class="form-group">
-							<label>Message</label>
-							<textarea class="form-control" name="message" id="message" placeholder="" rows="10" required></textarea>
-						</div>
-						<div class="text-right"><br>
-							<button class="btn btn-primary white" type="submit">Send Message</button> 
-						</div>
-					</form>
-	    		</div>
-	    		<div class="col-md-5">
-	    			<div class="contact-info">
-		    			<h3>Contact Details</h3>
-			    		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget erat magna. Pellentesque justo ante</p>
-			    		<br>
-			    		<p><i class="fa fa-home info"></i>  1102 Saint Marys, Junction City, KS </p>
-						<p><i class="fa fa-phone info"></i>  +(785) 238-4131 </p>
-						<p><i class="fa fa-envelope-o info"></i>  info@dartdesign.com</p>
-						<p><i class="fa fa-globe info"></i>  www.dart.com</p>
-						<div class="gap-20"></div>
-    				</div>
-	    		</div>
-	    	</div>
-		</div>
-	</section><!--/ Contact end -->
 	
 
 	<!-- Footer start -->
-	<section id="footer" class="footer2 angle">
+	<footer id="footer" class="footer">
+		<div class="container">
+			<div class="row">
+			   <div class="col-md-6 col-sm-12 footer-widget">
+					<h3 class="widget-title">Our Technician Certifications</h3>
+
+					<div class="img-gallery">
+						<div class="img-container">
+							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/1.jpg">
+								<img src="images/gallery/1.jpg" alt="">
+							</a>
+							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/2.jpg">
+								<img src="images/gallery/2.jpg" alt="">
+							</a>
+							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/3.jpg">
+								<img src="images/gallery/3.jpg" alt="">
+							</a>
+							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/4.jpg">
+								<img src="images/gallery/4.jpg" alt="">
+							</a>
+							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/5.jpg">
+								<img src="images/gallery/5.jpg" alt="">
+							</a>
+							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/6.jpg">
+								<img src="images/gallery/6.jpg" alt="">
+							</a>
+							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/6.jpg">
+								<img src="images/gallery/7.jpg" alt="">
+							</a>
+							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/6.jpg">
+								<img src="images/gallery/8.jpg" alt="">
+							</a>
+							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/6.jpg">
+								<img src="images/gallery/9.jpg" alt="">
+							</a>
+						</div>
+					</div>
+				</div><!--/ end flickr -->
+
+				<div class="col-md-6 col-sm-12 footer-widget footer-about-us">
+					<!--<h3 class="widget-title">About Craft</h3>
+					<p>We are a awward winning multinational company. We believe in quality and standard worldwide.</p>-->
+					<h4>Address</h4>
+					<p>4410 W Flager st Coral Gables, FL 33134</p>
+					<div class="row">
+						<div class="col-md-6">
+							<h4>Email:</h4>
+							<p>stickhome24@gmail.com</p>
+						</div>
+						<div class="col-md-6">
+							<h4>Phone No.</h4>
+							<p>+(786) 853-3752</p>
+						</div>
+					</div>
+                    <form action="#" role="form">
+                        <div class="input-group subscribe">
+                            <input type="email" class="form-control" placeholder="Email Address" required="">
+                            <span class="input-group-addon">
+                              <button class="btn" type="submit"><i class="fa fa-envelope-o"> </i></button>
+                            </span>                        
+                        </div>
+                    </form>
+				</div><!--/ end about us -->
+
+			</div><!-- Row end -->
+		</div><!-- Container end -->
+	</footer><!-- Footer end -->
+
+	<!-- Copyright start -->
+	<section id="copyright" class="copyright angle">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
-					<ul class="social-icon unstyled">
+					<ul class="footer-social unstyled">
 						<li>
 							<a title="Twitter" href="#">
 								<span class="icon-pentagon wow bounceIn"><i class="fa fa-twitter"></i></span>
@@ -980,7 +692,7 @@
 			<div class="row">
 				<div class="col-md-12 text-center">
 					<div class="copyright-info">
-         			 &copy; Copyright 2015 Craft. <span>All Rights Reserved</span>
+         			 &copy; Copyright 2016. <span>All Rights Reserved</span>
         			</div>
 				</div>
 			</div><!--/ Row end -->
@@ -988,13 +700,13 @@
 				<button class="btn btn-primary" title="Back to Top"><i class="fa fa-angle-double-up"></i></button>
 			</div>
 		</div><!--/ Container end -->
-	</section><!--/ Footer end -->
+	</section><!--/ Copyright end -->
 
 	<!-- Javascript Files
 	================================================== -->
 
 	<!-- initialize jQuery Library -->
-	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
 	<!-- Bootstrap jQuery -->
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<!-- Style Switcher -->
@@ -1005,6 +717,8 @@
 	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
 	<!-- Bxslider -->
 	<script type="text/javascript" src="js/jquery.flexslider.js"></script>
+	<!-- CD Hero slider -->
+	<script type="text/javascript" src="js/cd-hero.js"></script>
 	<!-- Isotope -->
 	<script type="text/javascript" src="js/isotope.js"></script>
 	<script type="text/javascript" src="js/ini.isotope.js"></script>

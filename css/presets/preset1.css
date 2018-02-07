@@ -37,33 +37,6 @@ blockquote {
 	border-left: 5px solid #49a2e7;
 }
 
-
-/* Header area
-================================================== */
-
-/*-- Header --*/
-.header{
-	border-top: 5px solid #49a2e7;
-}
-
-/*-- Logo --*/
-
-.navbar-brand{
-	background: #49a2e7;
-}
-
-/*-- Main navigation --*/
-
-ul.navbar-nav > li:hover > a, 
-ul.navbar-nav > li.active > a{
-	color: #49a2e7;
-}
-
-.navbar-toggle{
-	background: #49a2e7;
-}
-
-
 /* Common styles
 ================================================== */
 
@@ -130,10 +103,21 @@ h2.entry-title a:hover{
 ================================================== */
 
 /*-- Header --*/
-
 .header{
 	border-top: 5px solid #49a2e7;
 }
+
+.header-solid ul.navbar-nav > li:hover > a, .header-solid ul.navbar-nav > li.active > a {
+  color: #49a2e7;
+}
+
+/*-- Logo --*/
+
+.navbar-brand{
+	background: #49a2e7;
+}
+
+/*-- Main navigation --*/
 
 ul.navbar-nav > li:hover > a, 
 ul.navbar-nav > li.active > a{
@@ -142,6 +126,15 @@ ul.navbar-nav > li.active > a{
 
 .navbar-toggle{
 	background: #49a2e7;
+}
+
+.dropdown-menu > ul > li.active > a{
+	color: #49a2e7;
+}
+
+.dropdown-menu > ul > li>a:hover, 
+.dropdown-menu > ul > li>a:focus{
+	color: #49a2e7;
 }
 
 
@@ -170,6 +163,15 @@ ul.navbar-nav > li.active > a{
 }
 
 
+/* Image Block
+================================================== */
+
+.image-block-content .feature-icon{
+	background: #49a2e7;
+}
+
+
+
 /* Portfolio
 ================================================== */
 
@@ -181,6 +183,23 @@ ul.navbar-nav > li.active > a{
 .isotope-nav ul a:hover{
 	background: #49a2e7;
 }
+
+.isotope-nav ul a.active:after, 
+.isotope-nav ul a:hover:after{
+	border-color: #49a2e7 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+}
+
+
+/* Feature box
+================================================== */
+.feature-icon{
+	color: #49a2e7;
+}
+
+.feature-center-icon{
+	color: #49a2e7;
+}
+
 
 /* About us
 ================================================== */
@@ -235,12 +254,6 @@ ul.navbar-nav > li.active > a{
 	background: #49a2e7;
 }
 
-/* Clients
-================================================== */
-
-.clients{
-	background-color: #49a2e7;
-}
 
 /* Footer
 ================================================== */
@@ -256,6 +269,20 @@ ul.navbar-nav > li.active > a{
 #back-to-top .btn.btn-primary:hover{
 	background: #49a2e7;
 }
+
+.footer-about-us h4{
+	color: #49a2e7;
+}
+
+.footer-widget .latest-post-content h4 a:hover{
+	color: #49a2e7;
+}
+
+.subscribe button{
+	background: #49a2e7;
+}
+
+
 
 /* Blog Item page
 ================================================== */
@@ -277,6 +304,10 @@ ul.navbar-nav > li.active > a{
 }
 
 /*-- Blog sidebar --*/
+
+.widget-tab .nav-tabs>li.active>a{
+	background: #49a2e7;
+}
 
 .widget-tab h4.entry-title a:hover{
 	color: #49a2e7;
@@ -326,4 +357,40 @@ ul.navbar-nav > li.active > a{
 	background: #49a2e7;
 }
 
+/* Misc */
 
+.title-border{
+	border-bottom: 2px solid #49a2e7;
+}
+
+.post-title a:hover{
+	color: #49a2e7;
+}
+
+.portfolio-static-desc a:hover{
+	color: #49a2e7;
+}
+
+.client-carousel .item a:hover{
+	border: 1px solid #49a2e7;
+}
+
+.footer ul li a:hover{
+	color: #49a2e7;
+}
+
+.call-to-action{
+	background: #49a2e7;
+}
+
+.blog-date{
+	background: #49a2e7;
+}
+
+.widget-categories ul.category-list  li a:hover{
+	color: #49a2e7;
+}
+
+.about-message ul li a:hover{
+	color: #49a2e7;
+}
